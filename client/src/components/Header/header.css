@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header-container {
+  background-color: #1c1d1f;
+  color: #ffffff;
+  height: 138px;
+}
+
+.header-heading {
+  font-family: "Suisse Works";
+  font-size: 32px;
+  margin: 0 115px;
+  padding-top: 50px;
+}
+
+.header-nav {
+  margin: 0 115px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}

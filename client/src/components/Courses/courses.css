@@ -1,0 +1,29 @@
+.courses-grid {
+  display: grid;
+  margin: 0 50px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+.course-card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.course-img {
+  max-width: 100%;
+}
+.course-details {
+  padding: 12px 15px;
+}
+.course-progress {
+  margin-top: 25px;
+  padding: 0 5px;
+}
+.course-title {
+  height: 39px;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
+    Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
+    segoe ui symbol;
+}
